@@ -1,0 +1,33 @@
+setTimeout(()=>{
+    document.querySelector('body').innerText='10'
+    setTimeout(()=>{
+        document.querySelector('body').innerText='9'  
+        setTimeout(()=>{
+            document.querySelector('body').innerText='8'  
+            setTimeout(()=>{
+                document.querySelector('body').innerText='7'
+                setTimeout(()=>{
+                    document.querySelector('body').innerText='6'
+                    setTimeout(()=>{
+                        document.querySelector('body').innerText='5' 
+                        setTimeout(()=>{
+                            document.querySelector('body').innerText='4'  
+                            setTimeout(()=>{
+                                document.querySelector('body').innerText='3'
+                                setTimeout(()=>{
+                                    document.querySelector('body').innerText='2'
+                                    setTimeout(()=>{
+                                        document.querySelector('body').innerText='1' 
+                                        setTimeout(()=>{
+                                            document.querySelector('body').innerText='Happy Independence Day' 
+                                        },1000)  
+                                    },1000)  
+                                },1000)  
+                            },1000)
+                        },1000) 
+                    },1000)  
+                },1000)  
+            },1000)
+        },1000)
+    },1000)
+},2000)
